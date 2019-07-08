@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/label_tittle"
         style="@style/Widget.AppCompat.TextView.SpinnerItem"
         android:layout_width="217dp"
         android:layout_height="25dp"
@@ -18,9 +18,9 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:text="@string/tittle"
+        android:text="@string/label_tittle"
         android:textAlignment="center"
-        app:layout_constraintBottom_toTopOf="@+id/txtBx"
+        app:layout_constraintBottom_toTopOf="@+id/txtBx_data"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,7 +28,7 @@
         app:layout_constraintVertical_bias="0.589" />
 
     <Button
-        android:id="@+id/buttonS"
+        android:id="@+id/button_submit"
         android:layout_width="176dp"
         android:layout_height="47dp"
         android:layout_marginStart="8dp"
@@ -47,7 +47,7 @@
         app:layout_constraintVertical_bias="0.468" />
 
     <EditText
-        android:id="@+id/txtBx"
+        android:id="@+id/txtBx_data"
         android:layout_width="220dp"
         android:layout_height="51dp"
         android:layout_marginStart="98dp"
@@ -59,14 +59,14 @@
         android:autofillHints=""
         android:cursorVisible="false"
         android:ems="10"
-        android:hint="@string/txtBx"
+        android:hint="@string/txtBx_hint"
         android:inputType="number"
         android:textColorHighlight="@color/colorPrimaryDark"
         android:textColorLink="@color/colorPrimaryDark"
         android:outlineSpotShadowColor="@color/colorPrimaryDark"
         android:shadowColor="@color/colorPrimaryDark"
         android:textCursorDrawable="@mipmap/ic_launcher_round"
-        app:layout_constraintBottom_toTopOf="@+id/buttonS"
+        app:layout_constraintBottom_toTopOf="@+id/button_submit"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.142"
         app:layout_constraintStart_toStartOf="parent"
@@ -75,7 +75,7 @@
         tools:targetApi="p" />
 
     <TextView
-        android:id="@+id/textLabel1"
+        android:id="@+id/label_birthdayTittle"
         android:layout_width="118dp"
         android:layout_height="25dp"
         android:layout_marginStart="8dp"
@@ -83,7 +83,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:text="@string/birthDayLabel"
+        android:text="@string/label_birthday"
         android:textColor="@color/colorBlack"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -93,7 +93,7 @@
         app:layout_constraintVertical_bias="0.443" />
 
     <TextView
-        android:id="@+id/textLabel2"
+        android:id="@+id/label_genderTittle"
         android:layout_width="118dp"
         android:layout_height="25dp"
         android:layout_marginStart="8dp"
@@ -101,7 +101,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:text="@string/genderLabel"
+        android:text="@string/label_gender"
         android:textColor="@color/colorBlack"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -111,7 +111,7 @@
         app:layout_constraintVertical_bias="0.55" />
 
     <TextView
-        android:id="@+id/textBirthday"
+        android:id="@+id/label_birthday"
         android:layout_width="135dp"
         android:layout_height="20dp"
         android:layout_marginStart="8dp"
@@ -125,11 +125,11 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textLabel1"
+        app:layout_constraintTop_toBottomOf="@+id/label_birthdayTittle"
         app:layout_constraintVertical_bias="0.016" />
 
     <TextView
-        android:id="@+id/textGender"
+        android:id="@+id/label_gender"
         android:layout_width="134dp"
         android:layout_height="19dp"
         android:layout_marginStart="8dp"
@@ -142,7 +142,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textLabel2"
+        app:layout_constraintTop_toBottomOf="@+id/label_genderTittle"
         app:layout_constraintVertical_bias="0.048" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,9 +1,9 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
     <string name="app_name">South African ID</string>
-    <string name="tittle">INSERT YOUR DATA</string>
+    <string name="label_tittle">INSERT YOUR DATA</string>
     <string name="btn_submit">LOAD</string>
-    <string name="txtBx">number</string>
-    <string name="birthDayLabel">Birthday</string>
-    <string name="genderLabel">Gender</string>
+    <string name="txtBx_hint">number</string>
+    <string name="label_birthday">Birthday</string>
+    <string name="label_gender">Gender</string>
     <string name="nullValue">- - -</string>
 </resources>
